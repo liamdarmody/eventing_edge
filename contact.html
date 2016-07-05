@@ -1,0 +1,58 @@
+---
+layout: page
+title: Contact
+permalink: /contact/
+---
+
+<section class="module bg-dark bg-dark-60" data-background="/public/images/banners/page-contact.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+                <h1 class="module-title font-alt">Contact us</h1>
+                <div class="module-subtitle font-serif mb-0">
+                    Looking for a Wonderful, Stylish, Fabulous Event? Get in touch.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="module">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <h4 class="font-alt">Get in touch</h4>
+                <br>
+                <form id="contact-form" role="form" novalidate="" action="/contact/thanks">
+                    <div class="form-group">
+                        <label class="sr-only" for="cname">Name</label>
+                        <input type="text" id="cname" class="form-control" name="cname" placeholder="Name*" required="" data-validation-required-message="Please enter your name.">
+                        <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only" for="cemail">Your Email</label>
+                        <input type="email" id="cemail" name="cemail" class="form-control" placeholder="Your E-mail*" required="" data-validation-required-message="Please enter your email address.">
+                        <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" id="cmessage" name="cmessage" rows="7" placeholder="Message*" required="" data-validation-required-message="Please enter your message."></textarea>
+                        <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-block btn-round btn-d">Submit</button>
+                    </div>
+                </form>
+                <div id="contact-response" class="ajax-response font-alt"></div>
+            </div>
+            <div class="col-sm-6">
+                <h4 class="font-alt">Additional info</h4>
+                <br>
+                <p>Get in touch today to see what we can do for you.</p>
+                <p><strong>Australia:</strong> +61 419 423 355</p>
+                <p><strong>Europe:</strong> +33 638 180 429</p>
+                <p><strong>Email:</strong> info@eventingedge.com.au</p>
+                <hr/>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include website-head.html %}
+
+  <body>
+
+    {% include website-preloader.html %}
+
+    <div class="main">
+
+      {% include website-nav.html %}
+
+      {{ content }}
+      
+      {% include website-footer.html %}
+
+    </div>
+
+    {% include website-scripts.html %}
+
+  </body>
+</html>
