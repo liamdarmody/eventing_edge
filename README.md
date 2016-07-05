@@ -3,6 +3,7 @@
 Created for Eddie Yacoubian at Eventing Edge.
 
 ## Tools
+
 - Github
 - Sublime Text
 - iTerm
@@ -10,7 +11,9 @@ Created for Eddie Yacoubian at Eventing Edge.
 - BitBalloon
 
 ## Maintenance
+
 Once the tools have been setup, you can use the following instructions to make changes to the website:
+
 1. Clone the repo from Github
 2. Navigate to the team page and update code accordingly (in Sublime Text)
 3. Copy an event page to maintain the correct structure, then update the name and content accordingly (in Sublime Text)
