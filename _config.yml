@@ -1,18 +1,20 @@
-# Dependencies
-markdown:         redcarpet
-
-# Permalinks
-permalink:        /blog/:title
-
-# Setup
-title:            EventingEdge
-tagline:          'Wonderful, Stylish, Fabulous Events'
-description:      'Wonderful, Stylish, Fabulous Events.'
-url:              http://www.eventingedge.com.au
-
+---
+title: EventingEdge
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+markdown: redcarpet
+permalink: "/blog/:title"
+tagline: Wonderful, Stylish, Fabulous Events
+description: Wonderful, Stylish, Fabulous Events.
+url: http://www.eventingedge.com.au
 author:
-  name:           'User Name'
-  url:            https://twitter.com/user
-
-paginate:         5
-paginate_path:    "/blog/page:num/"
+  name: User Name
+  url: https://twitter.com/user
+paginate: 5
+paginate_path: "/blog/page:num/"
